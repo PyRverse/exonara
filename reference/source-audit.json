@@ -1,0 +1,54 @@
+{
+  "DEXSeq": {
+    "revision": "847ca9b8fec10d109175501051311f6cca1453d7",
+    "branch": "RELEASE_3_23",
+    "files": {
+      "DESCRIPTION": {
+        "sha256": "e6cc3ac74a68b6d2fa1bef84cfca405695f61fcd82c2b57bc05ecf8b51925769",
+        "url": "https://github.com/bioc/DEXSeq/blob/847ca9b8fec10d109175501051311f6cca1453d7/DESCRIPTION"
+      },
+      "R/core.R": {
+        "sha256": "009ef7108f97fb75caa22a35e671dd512eda50134d0de9802e54f75d93c6d704",
+        "url": "https://github.com/bioc/DEXSeq/blob/847ca9b8fec10d109175501051311f6cca1453d7/R/core.R"
+      },
+      "R/methods.R": {
+        "sha256": "e897a7fc383db4df4a55cd810c7556f6ea012d593bddb5a6eb21941af80e7c0a",
+        "url": "https://github.com/bioc/DEXSeq/blob/847ca9b8fec10d109175501051311f6cca1453d7/R/methods.R"
+      },
+      "R/classes.R": {
+        "sha256": "e986853ef46d42035519e229b37dd5919ea1573ed9aea16454498ff738727d20",
+        "url": "https://github.com/bioc/DEXSeq/blob/847ca9b8fec10d109175501051311f6cca1453d7/R/classes.R"
+      }
+    }
+  },
+  "DESeq2": {
+    "revision": "16aeab6d6158bd8cbb8e98764c2f33399b1a3fd3",
+    "branch": "RELEASE_3_23",
+    "files": {
+      "DESCRIPTION": {
+        "sha256": "0206ba7f5c46a656c23758139932960efcbd331af2f81d4c57e3e6587257e020",
+        "url": "https://github.com/bioc/DESeq2/blob/16aeab6d6158bd8cbb8e98764c2f33399b1a3fd3/DESCRIPTION"
+      },
+      "R/core.R": {
+        "sha256": "1aa7f02de40d176c6930e0990697f1db59ab5b49b8a4bd730bc9de8660042aec",
+        "url": "https://github.com/bioc/DESeq2/blob/16aeab6d6158bd8cbb8e98764c2f33399b1a3fd3/R/core.R"
+      },
+      "R/methods.R": {
+        "sha256": "dd8320dc0ea8634ee91748bb5a10d4e466fd7aa0c4e31001ac053481b60798e8",
+        "url": "https://github.com/bioc/DESeq2/blob/16aeab6d6158bd8cbb8e98764c2f33399b1a3fd3/R/methods.R"
+      },
+      "src/DESeq2.cpp": {
+        "sha256": "5ab1b09544566649a5c0909b16900f3f09d61d93aea000eee18c51bfb2dad895",
+        "url": "https://github.com/bioc/DESeq2/blob/16aeab6d6158bd8cbb8e98764c2f33399b1a3fd3/src/DESeq2.cpp"
+      },
+      "R/fitNbinomGLMs.R": {
+        "sha256": "c23e6e61799b4b036804f323995d75104804694d3fc91965d6cd85476d9173f1",
+        "url": "https://github.com/bioc/DESeq2/blob/16aeab6d6158bd8cbb8e98764c2f33399b1a3fd3/R/fitNbinomGLMs.R"
+      },
+      "R/wrappers.R": {
+        "sha256": "d010157c275f9f5850379507f222e70c83b92f0e176b26524c600a88066fe35d",
+        "url": "https://github.com/bioc/DESeq2/blob/16aeab6d6158bd8cbb8e98764c2f33399b1a3fd3/R/wrappers.R"
+      }
+    }
+  }
+}

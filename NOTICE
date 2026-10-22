@@ -1,0 +1,28 @@
+Exonara 0.1.0a1
+Copyright (c) 2026 PyRverse contributors
+License: GNU General Public License, version 3 or (at your option) any later version.
+
+This software adapts scientific algorithms and numerical control flow from:
+
+DEXSeq 1.58.0 (GPL >= 3)
+Original authors: Simon Anders and Alejandro Reyes.
+Maintainer in the inspected release: Hugo Gruson.
+https://bioconductor.org/packages/DEXSeq
+
+DESeq2 1.52.0 (LGPL >= 3)
+Original principal authors: Michael I. Love, Wolfgang Huber, and Simon Anders.
+The inspected C++ numerical source additionally credits Constantin Ahlmann-Eltze.
+https://bioconductor.org/packages/DESeq2
+
+Changes: rewritten in Python/NumPy/SciPy with explicit pandas table contracts,
+two-condition model construction, an unpenalized damped-Newton GLM optimizer,
+restricted mean-trend dispersion support, and explicit unsupported-boundary
+statuses. Normalization and dispersion routines retain upstream algorithmic
+structure. No claim of clean-room development or author endorsement is made.
+
+The adapted DESeq2 material is conveyed under GPL-3.0-or-later using the option
+in LGPLv3 section 3. The original LGPL license text is retained in
+LICENSES/LGPL-3.0.txt, and the complete GPLv3 text is in LICENSE.
+
+See PROVENANCE.md and reference/source-audit.json for exact source revisions,
+file hashes, references, and validation provenance.

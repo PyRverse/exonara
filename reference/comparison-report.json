@@ -1,0 +1,109 @@
+{
+  "fixture": "synthetic seed 20261022, 72 tested exons and 2 excluded bins",
+  "scope": "six samples, two conditions, DEXSeq mean dispersion trend",
+  "comparisons": {
+    "fixed": {
+      "diagnostics": {
+        "method": "exon-versus-others NB LRT",
+        "residual_df": 4,
+        "dispersion_fit": "supplied",
+        "independent_filtering": false,
+        "cooks_filtering": false,
+        "prior_variance": null,
+        "status_counts": {
+          "ok": 72,
+          "zero_exon_or_others": 2
+        }
+      },
+      "columns": {
+        "dispersion": {
+          "max_absolute_error": 0.0,
+          "rmse": 0.0,
+          "compared": 74,
+          "max_relative_error_nonzero_reference": 0.0
+        },
+        "stat": {
+          "max_absolute_error": 1.0137249759623046e-06,
+          "rmse": 1.8388018400558648e-07,
+          "compared": 72,
+          "max_relative_error_nonzero_reference": 0.0014313559457105583
+        },
+        "pvalue": {
+          "max_absolute_error": 3.3294459658161912e-06,
+          "rmse": 4.715152788399919e-07,
+          "compared": 72,
+          "max_relative_error_nonzero_reference": 3.653415449772262e-06
+        },
+        "padj": {
+          "max_absolute_error": 1.3612413796160183e-06,
+          "rmse": 7.520100604110096e-07,
+          "compared": 72,
+          "max_relative_error_nonzero_reference": 1.363836370927687e-06
+        }
+      },
+      "same_na_pvalues": true,
+      "same_bh_decisions_at_0_05": true
+    },
+    "estimated": {
+      "diagnostics": {
+        "method": "exon-versus-others NB LRT",
+        "residual_df": 4,
+        "dispersion_fit": "mean",
+        "independent_filtering": false,
+        "cooks_filtering": false,
+        "prior_variance": 0.9848734391939262,
+        "dispersion_trend": 0.2395429478806055,
+        "variance_log_dispersions": 1.6298075060421529,
+        "status_counts": {
+          "ok": 72,
+          "zero_exon_or_others": 2
+        }
+      },
+      "columns": {
+        "dispersion": {
+          "max_absolute_error": 2.174653183306674e-06,
+          "rmse": 3.9865326040234764e-07,
+          "compared": 72,
+          "max_relative_error_nonzero_reference": 1.0089754621192593e-05
+        },
+        "stat": {
+          "max_absolute_error": 0.00039164453330897686,
+          "rmse": 4.824887587122082e-05,
+          "compared": 72,
+          "max_relative_error_nonzero_reference": 0.00036129024762095657
+        },
+        "pvalue": {
+          "max_absolute_error": 4.4096132089110895e-06,
+          "rmse": 7.746790261324453e-07,
+          "compared": 72,
+          "max_relative_error_nonzero_reference": 0.00019804402499069214
+        },
+        "padj": {
+          "max_absolute_error": 7.338212033469738e-06,
+          "rmse": 1.6341235793480245e-06,
+          "compared": 72,
+          "max_relative_error_nonzero_reference": 0.0001980440249918771
+        }
+      },
+      "same_na_pvalues": true,
+      "same_bh_decisions_at_0_05": true
+    }
+  },
+  "python_runtime": {
+    "python": "3.12.10",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  },
+  "fixture_sha256": {
+    "fixtures/counts.csv": "fc1ac02bb337c870b953943226d683c91c22968661c33845dbb956105405b364",
+    "fixtures/dispersion_components.csv": "54f92c8c81054e0dc8d05a2b74dea690de4b75bbc56b313d083a7a0ffe67bd99",
+    "fixtures/estimated_dispersion.csv": "c7e6d4ca515a88c4b2541a6e409a38cd9afe56e00f3ca5a8376ce7f8d29dac79",
+    "fixtures/fixed_dispersion.csv": "05bb36aaf6a888e11f9087bc5517d20764ae7f74d85866a9ee0e0db535ecc323",
+    "fixtures/metadata.json": "1c3e415da4e92827bb240391230499e89fb526d820bb050261f299d18924e535",
+    "fixtures/samples.csv": "24b6c8d4713032afd76c2df0cf1fa4155d547c3cc4caf89dabcc50b3b9d7541b",
+    "fixtures/session-info.txt": "de5a44eb9f45cba108176fb3ab068b6ae01078e61163310410105861b492d41e",
+    "fixtures/size_factors.csv": "6419ab614a7f3739bece5a42ac27e9546415d4fc45d0871e32e8cd41392234a0"
+  },
+  "generator_sha256": "b38842a614fabb24bb1489ea15d42cf598a989d9d453b12eedc451f2e07b9c0d"
+}
